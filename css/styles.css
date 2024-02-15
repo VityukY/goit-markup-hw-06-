@@ -1,9 +1,10 @@
 :root{
    --main:#2E2F42;
-   --secondaty: #FFFFFF;
+   --white: #FFFFFF;
    --acent:#4D5AE5;
+   --hover:#404BBF;
    --backgound-secondary: #F4F4FD;
-   --background: #E7E9FC;
+   --secondary: #434455;
 }
 /*main*/
 body {
@@ -21,6 +22,9 @@ a{
    color: var(--main);
    font-style: normal;
 }
+button{
+   border: none;
+}
 /*navigation*/
 .logo{
    text-transform: uppercase;
@@ -36,9 +40,17 @@ a{
    color: var(--acent);
 }
 .nav-list{
-   
    font-weight: 500;
    list-style-type: none;
+}
+.nav-list-link:hover{
+   color: var(--hover)
+}
+.contact-list-link{
+   color: var(--secondary);
+}
+.contact-list-link:hover{
+   color: var(--hover)
 }
 .nav-list-link {
    text-decoration: none;
@@ -48,7 +60,7 @@ a{
    background-color: var(--main);
 }
 .hero-title{
-   color:var(--secondaty);
+   color:var(--white);
    font-family: Roboto;
    font-size: 56px;
    font-weight: 700;
@@ -57,9 +69,12 @@ a{
 }
 .hero-button{
    background-color:var(--acent);
-   color:var(--secondaty);
+   color:var(--white);
    font-weight: 500;
    letter-spacing: 0.04em;
+}
+.hero-button:hover{
+   background-color:var(--hover)
 }
 /*feachers*/
 .feacher-title {
@@ -96,15 +111,32 @@ a{
 .footer{
    background-color: var(--main);
 }
+
 .footer-logo{
    font-family: Raleway;
    font-size: 18px;
    font-weight: 800;
    line-height: 21px;
    letter-spacing: 0.03em;
-
+   color: var(--white);
 }
 
 .footer-discription{
-   color:var(--secondaty);
+   color:var(--white);
+}
+/*portfolio page*/
+.portfolio-nav-button{
+   color: var(--acent);
+   background-color: var(--backgound-secondary);
+}
+.portfolio-nav-button:hover{
+   color:var(--white);
+   background-color: var(--hover);
+}
+.portfolio-subtitle{
+      font-size: 20px;
+      font-weight: 500;
+}
+.portfolio-work-attribute{
+   color:var(--secondary)
 }
