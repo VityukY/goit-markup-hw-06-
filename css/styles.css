@@ -1,0 +1,110 @@
+:root{
+   --main:#2E2F42;
+   --secondaty: #FFFFFF;
+   --acent:#4D5AE5;
+   --backgound-secondary: #F4F4FD;
+   --background: #E7E9FC;
+}
+/*main*/
+body {
+   font-family: 'Roboto', sans-serif;
+   color:var(--main);
+   line-height: 24px;
+   letter-spacing: 0.02em;
+   font-size: 16px;
+}
+ul, ol {
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+   color: var(--main);
+   font-style: normal;
+}
+/*navigation*/
+.logo{
+   text-transform: uppercase;
+   font-family: Raleway;
+   font-size: 18px;
+   font-weight: 800;
+   line-height: 21px;
+   letter-spacing: 0.03em;
+   text-align: left;
+
+}
+.logo-accent{
+   color: var(--acent);
+}
+.nav-list{
+   
+   font-weight: 500;
+   list-style-type: none;
+}
+.nav-list-link {
+   text-decoration: none;
+}
+/*hero*/
+.hero-section{
+   background-color: var(--main);
+}
+.hero-title{
+   color:var(--secondaty);
+   font-family: Roboto;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 60px;
+   text-align: center;
+}
+.hero-button{
+   background-color:var(--acent);
+   color:var(--secondaty);
+   font-weight: 500;
+   letter-spacing: 0.04em;
+}
+/*feachers*/
+.feacher-title {
+   display: none;
+}
+.feacher-subtitle{
+      font-size: 20px;
+      font-weight: 500;
+
+}
+
+/*works*/
+.services-title{
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 40px;
+}
+/*team*/
+.team-section{
+   background-color: var(--backgound-secondary);
+}
+.team-title{
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 40px;
+
+}
+.team-names{
+      font-size: 20px;
+      font-weight: 500;
+}
+
+/*footer*/
+.footer{
+   background-color: var(--main);
+}
+.footer-logo{
+   font-family: Raleway;
+   font-size: 18px;
+   font-weight: 800;
+   line-height: 21px;
+   letter-spacing: 0.03em;
+
+}
+
+.footer-discription{
+   color:var(--secondaty);
+}
