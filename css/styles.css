@@ -10,7 +10,7 @@
 body {
    font-family: 'Roboto', sans-serif;
    color:var(--main);
-   line-height: 24px;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    font-size: 16px;
 }
@@ -31,9 +31,9 @@ button{
    font-family: Raleway;
    font-size: 18px;
    font-weight: 800;
-   line-height: 21px;
+   line-height: 1.167;
    letter-spacing: 0.03em;
-   text-align: left;
+
 
 }
 .logo-accent{
@@ -63,15 +63,15 @@ button{
    color:var(--white);
    font-family: Roboto;
    font-size: 56px;
-   font-weight: 700;
-   line-height: 60px;
-   text-align: center;
+   line-height: 1.07;
+
 }
 .hero-button{
    background-color:var(--acent);
    color:var(--white);
    font-weight: 500;
    letter-spacing: 0.04em;
+
 }
 .hero-button:hover{
    background-color:var(--hover)
@@ -81,16 +81,16 @@ button{
    display: none;
 }
 .feacher-subtitle{
-      font-size: 20px;
-      font-weight: 500;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
 
 }
 
 /*works*/
 .services-title{
       font-size: 36px;
-      font-weight: 700;
-      line-height: 40px;
+      line-height: 1.11;
 }
 /*team*/
 .team-section{
@@ -98,13 +98,13 @@ button{
 }
 .team-title{
       font-size: 36px;
-      font-weight: 700;
-      line-height: 40px;
+      line-height: 1.11;
 
 }
 .team-names{
       font-size: 20px;
       font-weight: 500;
+      line-height: 1.2;
 }
 
 /*footer*/
@@ -116,7 +116,7 @@ button{
    font-family: Raleway;
    font-size: 18px;
    font-weight: 800;
-   line-height: 21px;
+   line-height: 1.167;
    letter-spacing: 0.03em;
    color: var(--white);
 }
@@ -128,6 +128,11 @@ button{
 .portfolio-nav-button{
    color: var(--acent);
    background-color: var(--backgound-secondary);
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   text-align: center;
+
 }
 .portfolio-nav-button:hover{
    color:var(--white);
@@ -136,6 +141,7 @@ button{
 .portfolio-subtitle{
       font-size: 20px;
       font-weight: 500;
+      line-height: 1.2;
 }
 .portfolio-work-attribute{
    color:var(--secondary)
