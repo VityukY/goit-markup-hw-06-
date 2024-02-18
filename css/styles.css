@@ -43,13 +43,13 @@ button{
    font-weight: 500;
    list-style-type: none;
 }
-.nav-list-link:hover{
+.nav-list-link:hover, .nav-list-link:focus {
    color: var(--hover)
 }
 .contact-list-link{
    color: var(--secondary);
 }
-.contact-list-link:hover{
+.contact-list-link:hover, .contact-list-link:focus{
    color: var(--hover)
 }
 .nav-list-link {
@@ -71,9 +71,13 @@ button{
    color:var(--white);
    font-weight: 500;
    letter-spacing: 0.04em;
+   font-size:16px;
+   font-family:'Roboto', sans-serif;
+   line-height: 1.5;
+   cursor:pointer;
 
 }
-.hero-button:hover{
+.hero-button:hover, .hero-button:focus{
    background-color:var(--hover)
 }
 /*feachers*/
@@ -132,9 +136,11 @@ button{
    line-height: 1.5;
    letter-spacing: 0.04em;
    text-align: center;
-
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   cursor: pointer;
 }
-.portfolio-nav-button:hover{
+.portfolio-nav-button:hover, .portfolio-nav-button:focus{
    color:var(--white);
    background-color: var(--hover);
 }
