@@ -37,6 +37,20 @@ a{
 button{
    border: none;
 }
+form {
+   margin: 0;
+   padding: 0;
+   box-sizing: content-box;
+}
+input {
+   margin: 0;
+   padding: 0;
+   font-family: inherit;
+   box-sizing: content-box;
+}
+textarea {
+   resize: none;
+}
 .visually-hidden {
    position: absolute;
    width: 1px;
@@ -372,6 +386,60 @@ background-repeat: no-repeat;
    cursor: pointer;
    background-color: #31D0AA;;
 }
+.subscription-container{
+   margin-left: auto;
+
+}
+.subscribe-form{
+   display: flex;
+   align-items: end;
+}
+.subscribe-btn{
+   display: flex;
+   width: 165px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   background-color: var(--acent);
+   cursor: pointer;
+}
+.btn-title{
+   color: var(--white);
+   margin-right: 16px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-align: center;
+}
+.subscribe-input{
+   margin-top: 16px;
+   display: block;
+   margin-right: 24px;
+   width: 232px;
+   height: 40px;
+   background-color: var(--main);
+   padding: 0 16px;
+   border: 1px solid var(--white);
+   border-radius: 4px;
+   color: var(--white);
+}
+.subscribe-input::placeholder{
+   color: var(--white);
+}
+
+.form-label{
+   display: inline-block;
+
+   line-height: 24px;
+   font-family: Roboto;
+   color: var(--white);
+   font-weight: 500;
+
+   font-size: 16px;
+   letter-spacing: 0.02em;
+}
 
 /*portfolio page*/
 .portfolio-section {
@@ -501,6 +569,8 @@ box-shadow: 0px 2px 1px 0px #2E2F4214;
 
    transition: transform 300ms ease-in, opacity 300ms ease-in;
    transition-delay: 0s;
+   padding: 24px;
+   padding-top: 72px;
 }
 
 .backdrop.is-hidden .modal {
@@ -529,4 +599,113 @@ box-shadow: 0px 2px 1px 0px #2E2F4214;
    fill: var(--white);
    background-color: var(--hover);
    border: 1px solid var(--hover);
+}
+.order-btn-label{
+   display: flex;
+   justify-content: center;
+}
+
+.order-form .input-label {
+   display: flex;
+   flex-direction: column;
+}
+.input-contact-form{
+   height: 40px;
+   padding: 0 8px;
+   padding-left: 38px;
+   padding-right: 16px;
+  
+   
+}
+.input-contact-form, .order-comment {
+   border: 1px solid  #2E2F4266;
+   border-radius: 4px;
+   font-family: "Roboto";
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.04em;
+   color: var(--clint-icon);
+   transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.input-label:focus-within .input-contact-form,
+.input-label:focus-within .order-comment
+{
+   outline:1px solid transparent;
+   border: 1px solid var(--acent);
+}
+
+
+.input-label{
+   position: relative;
+}
+.form-icon{
+   fill: black;
+   position: absolute;
+   top:35px;
+   left: 16px;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.input-label:focus-within .form-icon{
+   fill: var(--hover);
+}
+
+.contact-form-titel{
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 16px;
+}
+.contact-form-text{
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.04em;
+   color:var(--clint-icon);
+   margin-bottom: 4px;
+   margin-top: 8px;
+}
+.order-comment{
+   padding: 8px 16px;
+}
+.order-comment::placeholder {
+   font-family: "Roboto";
+      font-size: 12px;
+      line-height: 1.16;
+      letter-spacing: 0.04em;
+      color: #2E2F4266;
+}
+.order-submit-btn{
+   margin-top: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 169px;
+   height: 56px;
+   background-color: var(--acent);
+   color: var(--white);
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+
+.privat_policy_text {
+   margin-left: 8px;
+   margin-right: 4px;
+}
+.privat_policy_link, .privat_policy_text {
+   font-size: 12px;
+   line-height: 1.16;
+   letter-spacing: 0.04em;
+   color: var(--clint-icon);
+}
+.privat_policy_link {
+   color: var(--acent);
+   text-decoration: underline;
+}
+.privat_policy_label {
+   margin-top: 16px;
+   display: flex;
+   cursor: pointer;
+}
+.privat_policy_label input[type="checkbox"] {
+   cursor: pointer;
 }
