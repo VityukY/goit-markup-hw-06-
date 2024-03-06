@@ -674,6 +674,8 @@ box-shadow: 0px 2px 1px 0px #2E2F4214;
       color: #2E2F4266;
 }
 .order-submit-btn{
+   margin-left: auto;
+   margin-right: auto;
    margin-top: 24px;
    display: flex;
    justify-content: center;
@@ -684,6 +686,7 @@ box-shadow: 0px 2px 1px 0px #2E2F4214;
    color: var(--white);
    border-radius: 4px;
    cursor: pointer;
+
 }
 
 
@@ -708,4 +711,20 @@ box-shadow: 0px 2px 1px 0px #2E2F4214;
 }
 .privat_policy_label input[type="checkbox"] {
    cursor: pointer;
+}
+.custom-checkbox {
+   width: 16px;
+   height: 16px;
+   border: 1px solid #2E2F4266;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   fill: transparent;
+
+}
+
+.modal-checkbox:checked + .custom-checkbox {
+   background-color: #404BBF;
+   border: none;
+   fill: #fff;
 }
