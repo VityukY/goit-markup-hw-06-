@@ -415,7 +415,7 @@ justify-content: center;
    display: flex;
    flex-direction: column;
    gap: 72px 0;
-   justify-content: center;
+
 }
 
 .inner-container {
@@ -489,6 +489,7 @@ justify-content: center;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   
 }
 .form-label{
    display: flex;
@@ -544,9 +545,32 @@ justify-content: center;
    .subscribe-form{
       flex-direction: row;
    }
+   .subscribe-form label{
+      margin-right: 24px;
+      width: 264px;
+   }
    .subscribe-input{
       max-width: 264px;
       justify-content: space-between;
+   }
+   .subscription-container  {
+      max-width: 456px;
+      display: flex;
+      flex-direction: row
+      ;
+   }
+   .subscribe-input{
+      width: 264px;
+      margin-bottom: 0;
+   }
+   .btn-container{
+      height: 100%;
+      display: flex;
+      align-items: end;
+   }
+   .form-label {
+
+      align-items: start;
    }
 
 }
