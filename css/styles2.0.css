@@ -222,6 +222,13 @@ align-items: center;
 justify-content: center;
 
 }
+
+@media (min-resolution: 192dpi) {
+   .box {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                  rgba(46, 47, 66, 0.7)), url(../images/hero-bg@2x.jpg);
+   }
+}
 .hero-title{
       font-size: 36px;
       line-height: 1.11;
@@ -247,6 +254,10 @@ justify-content: center;
    letter-spacing: 0.04em;
    line-height:1.5;
 
+}
+.hero-button:hover,
+.hero-button:focus {
+   background-color: var(--pressed-state)
 }
 
 @media (min-width:768px) {
@@ -615,7 +626,11 @@ justify-content: center;
    padding: 0 15px;
    margin-bottom: 16px;
    max-width: 398px;
+   color: var(--white);
   
+}
+.subscribe-input::placeholder {
+   color: var(--white);
 }
 .subscribe-btn{
    display: flex;
@@ -626,6 +641,10 @@ justify-content: center;
    width: 165px;
    height: 40px;
    border-radius: 4px;   
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+   background-color: var(--pressed-state);
 }
 .btn-title {
    margin-right: 16px;
@@ -977,6 +996,10 @@ justify-content: center;
 
 
 */
+.icon-burger_menu{
+    fill:var(--dark)
+
+}
 @media (min-width:768px) {
    .mob-container {
       display: none;

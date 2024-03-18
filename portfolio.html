@@ -64,19 +64,8 @@
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
-            <svg
-              width="24"
-              height="24"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-              class="mobile-btn-icon"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
+            <svg class="icon-burger_menu" height="32" width="32">
+              <use href="./images/icons.svg#icon-burger_menu"></use>
             </svg>
           </button>
         </nav>
@@ -114,6 +103,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_9.jpg    1x,
+                    ./images/portfolio_img_1@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_9.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -135,6 +128,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_8.jpg    1x,
+                    ./images/portfolio_img_2@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_8.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -154,6 +151,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_7.jpg    1x,
+                    ./images/portfolio_img_3@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_7.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -173,6 +174,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_6.jpg    1x,
+                    ./images/portfolio_img_4@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_6.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -192,6 +197,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_5.jpg    1x,
+                    ./images/portfolio_img_5@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_5.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -211,6 +220,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_4.jpg    1x,
+                    ./images/portfolio_img_6@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_4.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -230,6 +243,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_3.jpg    1x,
+                    ./images/portfolio_img_7@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_3.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -249,6 +266,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_2.jpg    1x,
+                    ./images/portfolio_img_8@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_2.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -268,6 +289,10 @@
               <div class="overlay-container">
                 <img
                   width="360"
+                  srcset="
+                    ./images/portfolio_img_1.jpg    1x,
+                    ./images/portfolio_img_9@2x.jpg 2x
+                  "
                   src="./images/portfolio_img_1.jpg"
                   alt="Banking app"
                   class="work-img"
@@ -362,10 +387,10 @@
       </button>
       <ul class="nav-list mobile-nav-menu">
         <li class="">
-          <a class="nav-list-link current" href="./index.html">Studio</a>
+          <a class="nav-list-link" href="./index.html">Studio</a>
         </li>
         <li>
-          <a class="nav-list-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-list-link current" href="./portfolio.html">Portfolio</a>
         </li>
         <li><a class="nav-list-link" href="">Contacts</a></li>
       </ul>
